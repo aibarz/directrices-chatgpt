@@ -4,6 +4,8 @@
 **Alcance:** todos los proyectos tecnológicos **actuales y futuros** del propietario (software, redes, automatización, electrónica, firmware, homelab, ingeniería inversa autorizada, diagnósticos y despliegues).  
 **Estado:** directriz aprobada; aplicar desde la siguiente investigación. No supone programar búsquedas recurrentes ni activar servicios de pago por sí sola.
 
+**Consumo moderado:** aplicar [Política de créditos de Firecrawl](POLITICA_CREDITOS_FIRECRAWL.md): fuentes gratuitas primero y presupuesto ordinario de hasta 5 créditos por investigación.
+
 ## Objetivo
 
 Aprovechar sistemáticamente investigación externa, código abierto y evidencias reproducibles antes de decidir implementar, cambiar una configuración o descartar una hipótesis. Evitar conclusiones a partir de un único foro, fork o mensaje aislado.
@@ -13,7 +15,7 @@ Aprovechar sistemáticamente investigación externa, código abierto y evidencia
 1. **Documentación interna primero.** Recuperar del proyecto y sus conexiones el estado, decisiones anteriores, tickets, versiones exactas, logs y pruebas. Respetar alcance, privacidad y precedencia de las órdenes vigentes. No repetir diagnósticos ya resueltos.
 2. **Formular una pregunta técnica verificable.** Identificar hardware y revisión, software/firmware, operador o variante, síntomas, hipótesis y criterios de éxito. Separar lo confirmado de lo inferido y de lo desconocido.
 3. **Buscar externamente por canales complementarios:**
-   - **Firecrawl** por defecto *cuando esté conectado, resulte pertinente y la fuente sea pública*: búsqueda web, lectura estructurada de foros/documentación, rastreo limitado de hilos y páginas; usar el índice de desarrollo para incidencias y documentación de código. Seleccionar fuentes específicas antes de rastreos extensos.
+   - **Firecrawl** selectivamente *cuando esté conectado, resulte pertinente y las fuentes gratuitas no basten*: búsqueda web, lectura estructurada de foros/documentación, rastreo limitado de hilos y páginas; usar el índice de desarrollo para incidencias y documentación de código. Seleccionar fuentes específicas antes de rastreos extensos.
    - **GitHub**: repositorios originales, forks, issues cerradas/abiertas, discusiones, commits, PR y diferencias reales entre implementaciones. Comparar código y cronología, no inferir avances por la existencia de forks.
    - Otros buscadores, manuales oficiales, changelogs, avisos de seguridad, comunidades técnicas y documentación de fabricantes si ayudan. Combinar idiomas relevantes al hardware/operador (español, inglés y otros según evidencia), no atribuir compatibilidad entre regiones o variantes automáticamente.
 4. **Triangular y clasificar**: anotar URL, fecha de publicación y versión objetivo; distinguir solución **VERIFICADA**, evidencia parcial **NO CONFIRMADA**, experimento ajeno **NO REPRODUCIDO** e hipótesis. Priorizar fuentes primarias, reproducibles y recientes. No usar herramientas de terceros sin revisar seguridad, licencia y compatibilidad.
